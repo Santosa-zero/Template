@@ -1,0 +1,34 @@
+.contact {
+    padding: 15%;
+
+    .title {
+        text-align: center;
+
+        hr {
+            background-color: $c-primary;
+            height: 5px;
+            width: 10%;
+        }
+
+        .row {
+
+            .col {
+
+                p {
+                    margin-top: 25px;
+                }
+
+                &:hover {
+
+                    .fas {
+                        color: $c-primary;
+                    }
+                }
+                
+                p {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

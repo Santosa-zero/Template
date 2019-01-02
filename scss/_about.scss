@@ -1,0 +1,36 @@
+.about {
+    background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%);
+    text-align: center;
+
+    .container {
+
+        .row {
+            padding: 10% 20%;
+
+            .col {
+                color: white;
+
+                hr {
+                    background-color: white;
+                    height: 5px;
+                    width: 10%;
+                }
+
+                .btn {
+                    border-radius: 20px;
+                    font-weight: bold;
+                    padding: 10px;
+                } 
+            }
+        }
+    }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    .about {
+        padding: 20% 0%;
+    }
+}
